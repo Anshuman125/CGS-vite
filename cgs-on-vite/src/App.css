@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.folder-container{
+  font-family: "Press Start 2P", system-ui;
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  padding: 3vw;
+}
+.folder-items{
+  display: flex;
+  flex-direction: row;
+  gap: 8vw;
+}
+@media (max-width: 1010px){
+  .folder-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    padding: 3vw;
+    justify-content: space-between;
+  }
+  .folder-items{
+    display: flex;
+    flex-direction: column;
+    gap: 12vw;
+  }
+}
